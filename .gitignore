@@ -1,0 +1,29 @@
+@"
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+venv/
+env/
+
+# OS/IDE
+.DS_Store
+*.code-workspace
+.vscode/
+.ipynb_checkpoints/
+
+# App artifacts
+static/uploads/
+static/cropped/
+static/results/
+stand_detection_results/
+complete_detection_results/
+
+# Data/outputs
+*.xlsx
+
+# Secrets
+.env
+"@ | Out-File -Encoding utf8 .gitignore
